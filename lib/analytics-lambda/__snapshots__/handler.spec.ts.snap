@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles event 1`] = `
+[
+  [
+    "https://analytics.test.com/?idsite=1&rec=1&url=https%3A%2F%2Ftest.de%2Frrr&rand=00000000-0000-0000-0000-000000000000&apiv=1&h=09&m=24&s=57&ua=Mozilla%2F5.0%2520%28Macintosh%3B%2520Intel%2520Mac%2520OS%2520X%252010_15_7%29%2520AppleWebKit%2F537.36%2520%28KHTML%2C%2520like%2520Gecko%29%2520Chrome%2F107.0.0.0%2520Safari%2F537.36&gt_ms=0.022",
+  ],
+  [
+    "https://analytics.test.com/?idsite=1&rec=1&url=https%3A%2F%2Ftest.de%2Ffavicon.ico&rand=00000000-0000-0000-0000-000000000000&apiv=1&urlref=https%3A%2F%2Ftest.de%2Frrr&h=09&m=24&s=58&ua=Mozilla%2F5.0%2520%28Macintosh%3B%2520Intel%2520Mac%2520OS%2520X%252010_15_7%29%2520AppleWebKit%2F537.36%2520%28KHTML%2C%2520like%2520Gecko%29%2520Chrome%2F107.0.0.0%2520Safari%2F537.36&gt_ms=0.020",
+  ],
+]
+`;

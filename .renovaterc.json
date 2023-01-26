@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "rangeStrategy": "pin",
+  "prHourlyLimit": 1,
+  "prConcurrentLimit": 10,
+  "labels": ["renovate"],
+  "packageRules": [
+    {
+      "description": "Do not update node above 18.x",
+      "matchPackageNames": ["^node$"],
+      "allowedVersions": "<19"
+    },
+    {
+      "description": "Group aws-cdk updates in one MR",
+      "groupName": "aws-cdk",
+      "matchPackagePatterns": ["^aws-cdk$", "^aws-cdk-lib$"]
+    },
+    {
+      "description": "Automatically merge minor and patch-level updates",
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ]
+}
