@@ -26,7 +26,7 @@
     "node-fetch": "2.6.8"
   },
   "devDependencies": {
-    "@types/aws-lambda": "8.10.109",
+    "@types/aws-lambda": "8.10.113",
     "@types/jest": "29.4.0",
     "@types/node": "18.11.18",
     "@types/node-fetch": "2.6.2",
