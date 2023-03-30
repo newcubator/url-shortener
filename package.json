@@ -23,13 +23,13 @@
     "aws-cdk-lib": "2.62.0",
     "constructs": "10.1.231",
     "nanoid": "4.0.0",
-    "node-fetch": "2.6.8"
+    "node-fetch": "2.6.9"
   },
   "devDependencies": {
     "@types/aws-lambda": "8.10.109",
     "@types/jest": "29.4.0",
     "@types/node": "18.11.18",
-    "@types/node-fetch": "2.6.2",
+    "@types/node-fetch": "2.6.3",
     "@types/prettier": "2.7.2",
     "aws-cdk": "2.62.0",
     "aws-sdk-client-mock": "2.0.1",
