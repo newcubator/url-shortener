@@ -2,7 +2,7 @@
   "name": "url-shortener",
   "version": "0.1.0",
   "description": "Function for receiving and storing locations from overland.",
-  "repository": "https://gitlab.com/newcubator/newcubator/url-shortener",
+  "repository": "https://github.com/newcubator/url-shortener/",
   "author": "newcubator GmbH <info@newcubator.com> (https://newcubator.com)",
   "contributors": [
     "Jan Sauer <jan.sauer@newcubator.com>"
